@@ -61,7 +61,7 @@ const Experience = () => {
           </div>
         </div>
 
-        <div experience__softskills>
+        <div className='experience__softskills'>
           <h3>Soft Skills</h3>
           <div className='experience__content'>
 
