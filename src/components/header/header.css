@@ -1,19 +1,27 @@
 header{
     height: 100vh;
-    padding-top: 5rem;
+    padding-top: 2.5rem;
+    margin-bottom: 0rem;
     /* overflow: hidden; */
+}
+#header{
+    /* background-color: black; */
+    height:50vh;
 }
 .header__container{
     text-align: center;
-    height: 100%;
-    position: relative;
+    /* height: 100%; */
+    /* position: relative; */
+    /* margin-bottom: -15rem; */
+    /* background-color: black; */
 }
 /* CTA  ------------------------- */
 .cta{
   margin-top: 2.5rem;
   display: flex;
   gap: 1.2rem; 
-  justify-content: center; 
+  justify-content: right; 
+  right: 0;
 }
 /* socials--------------------------- */
 .header__socials{
@@ -24,9 +32,10 @@ header{
     position: absolute;
     font-size: 2.5rem;
     left: 0;
-    bottom: 3rem;
+    top:0;
 
 }
+
 
 .header__socials::after{
     content: '';
@@ -36,7 +45,7 @@ header{
 }
 
 /* Header Image */
-.me{
+/* .me{
     background: linear-gradient(var(--color-primary), transparent);
     width: 20rem;
     height:30rem;
@@ -46,14 +55,17 @@ header{
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 0rem 1.5rem 1.5rem 1.5rem;
-}
+} */
 /* Scroll down */
-.scroll__down{
+/* .scroll__down{
     position: absolute;
     right: -2.3rem;
     bottom: 7.5rem;
     transform: rotate(90deg);
     font-size: 1.8rem;
+} */
+h1{
+    font-size: 4.5rem;
 }
 /* med devices--------------------------------------- */
 
@@ -68,9 +80,9 @@ header{
     header{
         height:100vh;      
     }
-    .scroll__down{
+    /* .scroll__down{
         display: none;
-    }
+    } */
     .header__socials{
         display: none;
     }

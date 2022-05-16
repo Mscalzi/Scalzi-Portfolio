@@ -3,6 +3,10 @@
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
+#experience{
+    /* background-color: purple; */
+    margin-top: 2rem;
+}
 
 .experience__container > div{
     background: var(--color-bg-variant);
@@ -33,9 +37,9 @@
     display: flex;
     gap:1rem;
 } */
-#experience{
+/* #experience{
     margin-top: -11rem;
-}
+} */
 .experience__details > h4{
     color: var(--color-primary)
 }
