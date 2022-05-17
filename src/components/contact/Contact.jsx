@@ -1,8 +1,8 @@
 import React from 'react'
 import './contact.css'
 import {HiOutlineMail} from 'react-icons/hi'
-import {RiMessengerLine} from 'react-icons/ri'
-import {AiOutlineInstagram} from 'react-icons/ai'
+import {AiFillLinkedin} from 'react-icons/ai'
+import {AiFillGithub} from 'react-icons/ai'
 const Contact = () => {
   return (
     <section id='contact'>
@@ -19,17 +19,17 @@ const Contact = () => {
           </article>
 
            <article className="contact__option">
-            <RiMessengerLine className='contact__option-icon' />
-            <h4>Messenger</h4>
-            <h5>MatthewScalzi@messenger</h5>
-            <a href="#" target='_blank'>Send A Message</a>
+            <AiFillLinkedin className='contact__option-icon' />
+            <h4>LinkedIn</h4>
+            <h5>Matthew Scalzi</h5>
+            <a href="https://www.linkedin.com/in/matthew-scalzi-25597a239/" target='_blank'>Connect With Me</a>
           </article>
 
           <article className="contact__option">
-            <AiOutlineInstagram className='contact__option-icon' />
-            <h4>Instagram</h4>
-            <h5>matthewscalzi@Instagram</h5>
-            <a href="#" target='_blank'>Send A Message</a>
+            <AiFillGithub className='contact__option-icon' />
+            <h4>Git Hub</h4>
+            <h5>Matthew Scalzi</h5>
+            <a href="https://github.com/Mscalzi" target='_blank'>See My Work</a>
           </article>
 
         </div>
@@ -38,7 +38,7 @@ const Contact = () => {
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
-          <button type='submit' className='btn btn-primary'>Send Message</button>
+          <button href='mailto:scalzi.matthew11@gmail.com' type='submit' className='btn btn-primary btn-ra'>Send Message</button>
         </form>
       </div>
     </section>

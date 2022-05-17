@@ -71,14 +71,15 @@ h1{
 
 @media screen and (max-width: 1024px){    
         header{
-            height: 68vh;     
+            /* height: 68vh;      */
         }  
 }
 
 /* small devices--------------------------------- */
 @media screen and (max-width: 600px){
     header{
-        height:100vh;      
+        /* height:100vh;       */
+        margin-bottom: 9.5rem;
     }
     /* .scroll__down{
         display: none;

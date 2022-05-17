@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me4.png'
+import ME from '../../assets/me5.jpg'
 import { GiAwareness } from 'react-icons/gi'
 import { HiOutlineUsers } from 'react-icons/hi'
 import { AiOutlineFolderView } from 'react-icons/ai'
@@ -54,7 +54,7 @@ const About = () => {
             development life-cycle process. Collaborative team player with excellent technical abilities
             offering 1.5 years of related experience.
           </p>
-          <a href="#contact" id='Btn' className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" id='Btn' className='btn btn-primary btn-r'>Let's Talk</a>
         </div>
 
       </div>

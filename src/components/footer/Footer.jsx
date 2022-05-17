@@ -1,8 +1,8 @@
 import React from 'react'
 import './footer.css'
-import {AiOutlineInstagram} from 'react-icons/ai'
-import {BsFacebook} from 'react-icons/bs'
-import {AiFillTwitterCircle} from 'react-icons/ai'
+// import {AiOutlineInstagram} from 'react-icons/ai'
+// import {BsFacebook} from 'react-icons/bs'
+// import {AiFillTwitterCircle} from 'react-icons/ai'
 
 const Footer = () => {
   return (
@@ -17,11 +17,11 @@ const Footer = () => {
         <li><a href='#contact'>Contact</a></li>
 
       </ul>
-      <div className="footer__socials">
+      {/* <div className="footer__socials">
         <a href="https://facebook.com" target='_blank'><BsFacebook /></a>
         <a href="https://instagram.com" target='_blank'><AiOutlineInstagram /></a>
         <a href="https://twitter.com" target='_blank'><AiFillTwitterCircle /></a>
-      </div>
+      </div> */}
       <div className='footer__copyright'>
       <small>&copy; Matthew Scalzi All rights reserved</small>
       </div>

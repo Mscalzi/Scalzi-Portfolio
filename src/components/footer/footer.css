@@ -34,6 +34,10 @@ footer a{
      right: 0;
     color: var(--color-bg);
 }
+btn-ra{
+    right: 0;
+}
+
 @media screen and (max-width: 1024px){    
    footer{
        display: none;

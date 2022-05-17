@@ -6,11 +6,12 @@
 #experience{
     /* background-color: purple; */
     margin-top: 2rem;
+    margin-bottom: 3.5rem;
 }
 
 .experience__container > div{
     background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
+    padding: 2.4rem 2.5rem;
     border-radius:0 0 2rem 2rem;
     border: 1px solid transparent;
     transition: var(--transition)
@@ -31,7 +32,8 @@
 .experience__content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+    row-gap: 3rem;
+    text-align: center;
 }
 /* .experience__details{
     display: flex;
