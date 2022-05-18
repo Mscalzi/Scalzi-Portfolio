@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me5.jpg'
+import Cta from '../header/Cta'
 import { GiAwareness } from 'react-icons/gi'
 import { HiOutlineUsers } from 'react-icons/hi'
 import { AiOutlineFolderView } from 'react-icons/ai'
@@ -8,8 +9,7 @@ import { AiOutlineFolderView } from 'react-icons/ai'
 const About = () => {
   return (
     <section id='about'>
-      <h5>Get To Know</h5>
-      <h2>ME</h2>
+     
       <div className='container about__container'>
         <div className='about__me'>
           <div className="about__me-image">
@@ -54,7 +54,8 @@ const About = () => {
             development life-cycle process. Collaborative team player with excellent technical abilities
             offering 1.5 years of related experience.
           </p>
-          <a href="#contact" id='Btn' className='btn btn-primary btn-r'>Let's Talk</a>
+          {/* <a href="#contact" id='Btn' className='btn btn-primary btn-r'>Let's Talk</a> */}
+          <Cta />
         </div>
 
       </div>

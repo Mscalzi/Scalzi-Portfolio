@@ -1,5 +1,5 @@
 header{
-    height: 100vh;
+    /* height: 100vh; */
     padding-top: 2.5rem;
     margin-bottom: 0rem;
     /* overflow: hidden; */
@@ -16,13 +16,13 @@ header{
     /* background-color: black; */
 }
 /* CTA  ------------------------- */
-.cta{
+/* .cta{
   margin-top: 2.5rem;
   display: flex;
   gap: 1.2rem; 
   justify-content: right; 
   right: 0;
-}
+} */
 /* socials--------------------------- */
 .header__socials{
     display: flex;

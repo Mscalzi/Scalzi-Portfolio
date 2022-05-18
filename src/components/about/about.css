@@ -2,7 +2,7 @@
     text-align: justify;
 }
 #about{
-    margin-top: 1rem;
+    margin-top: -7rem;
     margin-bottom: 5rem;
     /* background-color: red; */
 }
@@ -97,6 +97,13 @@
        display: none;
    }
 }
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem; 
+    justify-content: right; 
+    right: 0;
+  }
 
 /* small devices--------------------------------- */
 @media screen and (max-width: 600px){
