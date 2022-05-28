@@ -55,7 +55,7 @@ const Experience = () => {
 
             <article className='experience__details'>
               
-              <h4><BsCheckCircle /> PHP</h4>
+              <h4><BsCheckCircle /> jQUERY</h4>
               <small className='text-light'>Experienced</small>
             </article>
 

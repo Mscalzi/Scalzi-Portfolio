@@ -1,6 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/img1.jpg'
+// import IMG2 from '../../assets/tetris2.jpg'
 
 const Portfolio = () => {
   return (
@@ -23,9 +24,9 @@ const Portfolio = () => {
           <div className='portfolio__item-image'>
             <img src={IMG1} alt='stock photo' />
           </div>
-          <h3>Dog Tracker</h3>
+          <h3>JavaScript Tetris</h3>
           <div className="portfolio__item-cte">
-            <a href='https://github.com/Mscalzi/ExUp' className='btn' target='_blank'>Github</a>
+            <a href='https://github.com/Mscalzi/MattTetris' className='btn' target='_blank'>Github</a>
             <a href='#' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
@@ -34,14 +35,14 @@ const Portfolio = () => {
           <div className='portfolio__item-image'>
             <img src={IMG1} alt='stock photo' />
           </div>
-          <h3>Cat Tracker</h3>
+          <h3> JS SelfDrivingCar(inProgress)</h3>
           <div className="portfolio__item-cte">
-            <a href='https://github.com/Mscalzi/ExUp' className='btn' target='_blank'>Github</a>
-            <a href='#' className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href='https://github.com/Mscalzi/Self-Driving-Car' className='btn' target='_blank'>Github</a>
+            <a href='https://mscalzi-self-driving-car-demo.herokuapp.com/' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
-        <article className='portfolio__item'>
+        {/* <article className='portfolio__item'>
           <div className='portfolio__item-image'>
             <img src={IMG1} alt='stock photo' />
           </div>
@@ -73,7 +74,7 @@ const Portfolio = () => {
             <a href='#' className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
 
-        </article>
+        </article> */}
 
       </div>
 
